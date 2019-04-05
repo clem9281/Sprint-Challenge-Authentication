@@ -34,11 +34,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. What does bcrypt do to help us store passwords in a secure manner.
 
-    Bcrypt hashes our passwords before we store them. 
+    Bcrypt hashes our passwords before we store them. Hashing is a one-way encryption.
 
 1. What does bcrypt do to slow down attackers?
 
-    Bcrypt hashes our passwords multiple times, this makes guessing passwords much harder for attackers.
+    Bcrypt hashes our passwords multiple times, this makes guessing passwords much harder for attackers. Since hashing only works one way, someone trying to guess the password would also have to calculate multiple hashes.
 
 1. What are the three parts of the JSON Web Token?
 
