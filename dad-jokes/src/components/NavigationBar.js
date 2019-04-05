@@ -33,7 +33,7 @@ const NavigationBar = () => {
           </NavItem>
           <NavItem>
             <NavLink to="/" exact tag={RouterNavLink}>
-              Users
+              Dad Jokes
             </NavLink>
           </NavItem>
           <NavItem>
